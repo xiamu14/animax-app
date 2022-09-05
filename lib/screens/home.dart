@@ -7,6 +7,8 @@ import 'package:flutter/services.dart';
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
+  static String routePath = '/tabHome';
+
   @override
   State<Home> createState() => _HomeState();
 }

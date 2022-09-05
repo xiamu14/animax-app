@@ -7,6 +7,8 @@ class Welcome extends StatefulWidget {
     Key? key,
   }) : super(key: key);
 
+  static String routePath = '/welcome';
+
   @override
   State<Welcome> createState() => _WelcomeState();
 }
